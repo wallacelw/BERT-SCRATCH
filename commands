@@ -1,0 +1,10 @@
+source ~/miniconda3/bin/activate
+
+conda activate bert
+
+nvidia-smi
+
+torch.zeros(1).cuda()
+
+
+https://huggingface.co/blog/pretraining-bert
